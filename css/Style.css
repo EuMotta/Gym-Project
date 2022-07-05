@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lobster&family=Montserrat:wght@400;600&family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------- Background --------- */
+.background-page{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/Background-image.jpg);
+    min-height: 100%;
+    min-width: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    width: 100%;
+    height: auto;
+      
+
+    top: 0;
+    left: 0;
+} 
+
+/* Navbar Start */
+
+.navbar-brand span{
+    font-family: 'Lobster', cursive;
+    color: rgb(85, 204, 158) ;
+}
+.nav-link{
+    border-radius: 5px !important;
+}
+.nav-link:hover{
+    background-color:rgb(85, 204, 158) ;
+    border-radius: 5px;
+}
+
+
+.main_text{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transform: translateX(30%);
+    transition: 2s;
+    position: relative;
+    right: 300px;
+}
+.main_text span{
+    font-family: 'Lobster', cursive;
+    color: rgb(85, 204, 158) ;
+}
+.paddt-45{
+    padding-top: 45px;
+}
+
+
+
+
+/* ----- Pages Start ----- */
+.bg_green{
+    background-color: rgb(85, 204, 158);
+}
+.bg_black{
+    background-color: black;
+}
+
+/* - Studio Start - */
+.text_studio{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-studio{
+    color: #fff;
+    background-color: rgb(85, 204, 158);
+    font-size: 25px;
+    padding: 7px;
+}
+.descriptiom_studio{
+    font-size: 15px;
+}
+
+.button_studio{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    background-color: rgb(85, 204, 158);
+    font-family: 'Open Sans', sans-serif;
+}
+.button_studio:hover{
+    background-color: rgb(159, 245, 212);
+    color: black;
+}
+/* - Studio End - */
+
+/* - GYM start - */
+.icon-gym{
+    color: #fff;
+    background-color: black;
+    font-size: 25px;
+    padding: 7px;
+}
+.text_gym{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.descriptiom_gym{
+    font-size: 15px;
+}
+
+.button_gym{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.button_gym:hover{
+    background-color: rgb(159, 245, 212);
+    color: black;
+}
+/* - GYM End - */
