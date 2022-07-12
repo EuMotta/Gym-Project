@@ -8,7 +8,7 @@
 .background-page{
     background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/Background-image.jpg);
     min-height: 100%;
-    min-width: 1024px;
+    min-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,10 +40,7 @@
 .main_text{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    transform: translateX(30%);
-    transition: 2s;
     position: relative;
-    right: 300px;
 }
 .main_text span{
     font-family: 'Lobster', cursive;
@@ -127,3 +124,11 @@
     color: black;
 }
 /* - GYM End - */
+
+/* - Medias */
+@media(max-width: 690px){
+}
+@media(max-width: 530px){
+}
+@media(max-width: 450px){
+}

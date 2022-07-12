@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgb(10, 0, 0); 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #378324; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #378324; 
+    box-shadow: inset 0 0 10px rgb(156, 156, 156) ;
+  }
+.bg_green{
+    background-color: #378324   ;
+}
+.bg_black{
+    background-color: black;
+}
+.button_gym{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    background-color: #5cba4500;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #5dba45;
+    transition: 0.3s;
+}
+.button_gym:hover{
+    background-color: #5dba45;
+    color: black;
+    transition: 0.3s;
+}
+.line_black{
+    background-color: #5dba45;
+    height: 4px;
+    width: 10%;
+}
+.text_sobre{
+  font-family: 'Montserrat', sans-serif;
+}
+.green_border{
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.green_bg{
+  width: 100%;
+  height: 140px;
+  position: relative;
+  top: -300px;
+  z-index: 0;
+  background-color: #378324;
+}
+.z1{
+  z-index: 1;
+}
+
+.objective{
+  background-image: url(../img/background-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.objective .text-center{
+  color: #fff;
+}
