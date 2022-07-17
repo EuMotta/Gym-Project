@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Bungee+Outline&family=Clicker+Script&family=Montserrat:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,11 +22,52 @@
     background: #378324; 
     box-shadow: inset 0 0 10px rgb(156, 156, 156) ;
   }
+  
+.nav-link{
+  border-radius: 10px;
+}
+.nav-item a:hover{
+  color: #06D85F !important;
+  border-radius: 10px;
+}
+.nav-item i{
+  transition: 0.1s;
+}
+.nav-item i:hover{
+  transform: scale(1.15);
+  transition: 0.1s;
+}
+.navbar-brand img{
+  transition: 0.3s;
+}
+.navbar-brand img:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
 .bg_green{
     background-color: #378324   ;
 }
 .bg_black{
     background-color: black;
+}
+.aboutus span{
+  font-family: 'Bungee Outline', cursive;
+  font-size: 45px;
+}
+.aboutus h1{
+  font-size: 40px;
+  font-family: 'Bungee', cursive;
+}
+.aboutus figure h2{
+  font-family: 'Bungee', cursive;
+}
+.aboutus figure p{
+  font-family: 'Bungee', cursive;
+  color: #378324;
+}
+.aboutus p{
+  font-family: serif;
+  
 }
 .button_gym{
     text-decoration: none;
@@ -66,16 +107,189 @@
   z-index: 0;
   background-color: #378324;
 }
+.bog h1, h4{
+  font-family: 'Bungee', cursive;
+}
+.bog p{
+  font-family: serif;
+}
 .z1{
   z-index: 1;
 }
 
 .objective{
-  background-image: url(../img/background-1.jpg);
+  background-image: url(../img/Objective.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.objective h1{
+  font-family: 'Bungee', cursive;
+}
+.objective p{
+  font-family: serif;
+}
 .objective .text-center{
   color: #fff;
+}
+
+.objective i{
+  font-size: 30px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.objective figure{
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.objective figure:hover{
+  background-color: #5bb644;
+}
+.objective figure h4{
+  font-family: 'Abril Fatface', cursive;
+}
+.objective figure p{
+  font-family: serif;
+  font-size: 17px;
+}
+.address iframe{
+  height: 420px !important;
+  width: 90%;
+}
+
+
+/* --- login --- */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: rgb(231, 231, 231);
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  z-index: 2;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sign-in h1 {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: solid 1px #000;
+  outline: none;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+input[type="email"]:hover::placeholder,
+input[type="password"]:hover::placeholder {
+  color: #000;
+}
+
+input[type="submit"] {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #378324;
+  color: rgb(0, 0, 0);
+}
+
+form a {
+  color: #000000;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+form a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+::selection {
+  color: #fff;
+  background-color: #000;
 }
