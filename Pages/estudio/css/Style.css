@@ -214,3 +214,36 @@
     height: 4px;
     width: 10%;
 }
+/* Adress End*/
+
+/* Price Start */
+.prices figure{
+  border: 1px solid #5dba45;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.prices h4{
+  font-family: 'Bungee';
+  color: #Ffffff;
+}
+.prices h1, p{
+  font-family: 'Bungee';
+  color: #ffffff;
+
+}
+.prices span{
+  font-family: 'Bungee';
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.prices .line_black{
+  height: 5px !important;
+  background-color: black;
+}
+.prices figure{
+  transition: 0.3s;
+}
+.prices figure:hover{
+  background-color: #06D85F;
+  transition: 0.3s;
+  transform: scale(1.1);
+}

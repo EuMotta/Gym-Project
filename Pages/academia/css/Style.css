@@ -72,14 +72,14 @@
 .button_gym{
     text-decoration: none;
     font-size: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #fff;
     background-color: #5cba4500;
     border-radius: 5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bungee', cursive;
     border: 2px solid #5dba45;
     transition: 0.3s;
 }
@@ -103,7 +103,7 @@
   width: 100%;
   height: 140px;
   position: relative;
-  top: -300px;
+  top: -310px;
   z-index: 0;
   background-color: #378324;
 }
@@ -112,6 +112,13 @@
 }
 .bog p{
   font-family: serif;
+}
+.bog figure:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.bog img{
+  transition: 0.3s;
 }
 .z1{
   z-index: 1;
