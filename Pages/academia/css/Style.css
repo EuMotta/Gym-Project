@@ -323,3 +323,7 @@ form a:hover {
   color: #fff;
   background-color: #000;
 }
+
+footer span{
+  color: var(--skin-color);
+}
