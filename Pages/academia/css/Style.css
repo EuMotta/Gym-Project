@@ -151,9 +151,12 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
+  transition: 0.3s;
 }
 .objective figure:hover{
-  background-color: var(--skin-color);
+  background-color: #6ce24e;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 .objective figure h4{
   font-family: 'Abril Fatface', cursive;
