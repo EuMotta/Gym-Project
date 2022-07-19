@@ -14,12 +14,12 @@
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #378324; 
+    background: var(--skin-color); 
     border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #378324; 
+    background: var(--skin-color); 
     box-shadow: inset 0 0 10px rgb(156, 156, 156) ;
   }
   
@@ -27,7 +27,7 @@
   border-radius: 10px;
 }
 .nav-item a:hover{
-  color: #06D85F !important;
+  color: var(--skin-color) !important;
   border-radius: 10px;
 }
 .nav-item i{
@@ -45,7 +45,7 @@
   transition: 0.3s;
 }
 .bg_green{
-    background-color: #378324   ;
+    background-color: var(--skin-color)   ;
 }
 .bg_black{
     background-color: black;
@@ -80,16 +80,16 @@
     background-color: #5cba4500;
     border-radius: 5px;
     font-family: 'Bungee', cursive;
-    border: 2px solid #5dba45;
+    border: 2px solid var(--skin-color) ;
     transition: 0.3s;
 }
 .button_gym:hover{
-    background-color: #5dba45;
+    background-color: var(--skin-color);
     color: black;
     transition: 0.3s;
 }
 .line_black{
-    background-color: #5dba45;
+    background-color: var(--skin-color);
     height: 4px;
     width: 10%;
 }
@@ -103,9 +103,9 @@
   width: 100%;
   height: 140px;
   position: relative;
-  top: -310px;
+  top: -20rem;
   z-index: 0;
-  background-color: #378324;
+  background-color: var(--skin-color);
 }
 .bog h1, h4{
   font-family: 'Bungee', cursive;
@@ -153,7 +153,7 @@
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .objective figure:hover{
-  background-color: #5bb644;
+  background-color: var(--skin-color);
 }
 .objective figure h4{
   font-family: 'Abril Fatface', cursive;
@@ -161,6 +161,26 @@
 .objective figure p{
   font-family: serif;
   font-size: 17px;
+}
+@media screen and (max-width: 1399px){
+  .green_bg{
+    width: 100%;
+    height: 140px;
+    position: relative;
+    top: -18rem;
+    z-index: 0;
+    background-color: var(--skin-color);
+  }
+}
+@media screen and (max-width: 1199px){
+  .green_bg{
+    width: 100%;
+    height: 140px;
+    position: relative;
+    top: -16rem;
+    z-index: 0;
+    background-color: var(--skin-color);
+  }
 }
 .address iframe{
   height: 420px !important;
@@ -214,7 +234,7 @@
   color: rgb(3, 3, 3);
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: var(--skin-color);
 }
 .popup .content {
   max-height: 30%;
@@ -281,7 +301,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #378324;
+  background-color: var(--skin-color);
   color: rgb(0, 0, 0);
 }
 

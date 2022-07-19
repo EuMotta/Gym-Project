@@ -15,12 +15,12 @@
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #378324; 
+    background: var(--skin-color); 
     border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #378324; 
+    background: var(--skin-color); 
     box-shadow: inset 0 0 10px rgb(156, 156, 156) ;
   }
   /* Scrollbar End */
@@ -34,7 +34,7 @@
     border-radius: 10px;
   }
   .nav-item a:hover{
-    color: #06D85F !important;
+    color: var(--skin-color) !important;
     border-radius: 10px;
     
   }
@@ -67,11 +67,11 @@
     background-color: #5cba4562;
     border-radius: 5px;
     font-family: 'Bungee';
-    border: 2px solid #5dba45;
+    border: 2px solid var(--skin-color);
     transition: 0.3s;
 }
 .button_gym:hover{
-    background-color: #5dba45;
+    background-color: var(--skin-color);
     color: black;
     transition: 0.3s;
 }
@@ -80,7 +80,7 @@
     background-color: #5cba4500;
 }
 .group_training .button_gym:hover{
-    background-color: #5dba45;
+    background-color: var(--skin-color);
 }
 /* Button End */
 
@@ -210,7 +210,7 @@
     width: 94%;
   }
   .line_black{
-    background-color: #5dba45;
+    background-color: var(--skin-color);
     height: 4px;
     width: 10%;
 }
@@ -218,7 +218,7 @@
 
 /* Price Start */
 .prices figure{
-  border: 1px solid #5dba45;
+  border: 1px solid var(--skin-color);
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .prices h4{
@@ -243,7 +243,7 @@
   transition: 0.3s;
 }
 .prices figure:hover{
-  background-color: #06D85F;
+  background-color: var(--skin-color);
   transition: 0.3s;
   transform: scale(1.1);
 }
