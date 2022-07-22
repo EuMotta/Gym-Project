@@ -53,6 +53,7 @@
 .aboutus span{
   font-family: 'Bungee Outline', cursive;
   font-size: 45px;
+  text-shadow: 0 -1px 4px #FFF, 0px 0px 20px #43F23A, 0px 0px 20px #43F23A;
 }
 .aboutus h1{
   font-size: 40px;
@@ -70,23 +71,27 @@
   
 }
 .button_gym{
-    text-decoration: none;
-    font-size: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+    font-size: 14px;
     color: #fff;
-    background-color: #5cba4500;
-    border-radius: 5px;
+    background-color: #5dba4500;
+    padding: 5px 15px;
+    border: solid #ffffff 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition : 300ms;
+    transform: translateY(0);
     font-family: 'Bungee', cursive;
-    border: 2px solid var(--skin-color) ;
-    transition: 0.3s;
 }
 .button_gym:hover{
-    background-color: var(--skin-color);
-    color: black;
-    transition: 0.3s;
+
+    transition : 300ms;
+    padding: 10px 15px;
+    transform : translateY(-0px);
+    background-color: #5dba45;
+    color: #000000;
+    border: solid 2px #000000;
 }
 .line_black{
     background-color: var(--skin-color);
@@ -97,7 +102,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 .green_border{
-  box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: #000000 0px 0px 15px 3px;
 }
 .green_bg{
   width: 100%;
@@ -115,6 +120,9 @@
 }
 .bog figure:hover{
   transform: scale(1.05);
+  transition: 0.3s;
+}
+.bog figure{
   transition: 0.3s;
 }
 .bog img{
@@ -152,6 +160,22 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   transition: 0.3s;
+  height: 50vh;
+}
+@media screen and (max-width: 1112px){
+  .objective figure{
+    height: 55vh;
+  }
+}
+@media screen and (max-width: 991px){
+  .objective figure{
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 575px){
+  .objective figure{
+    height: 40vh;
+  }
 }
 .objective figure:hover{
   background-color: #6ce24e;
@@ -188,6 +212,12 @@
 .address iframe{
   height: 420px !important;
   width: 90%;
+  
+  transition: 0.3s;
+}
+.address iframe:hover{
+  transition: 0.3s;
+  box-shadow: #43F23A 0px 0px 34px -3px;
 }
 
 
