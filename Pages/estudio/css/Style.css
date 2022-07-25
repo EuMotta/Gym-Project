@@ -99,6 +99,11 @@
   /* Main End */
 
   /* Training Start */
+  @media screen and (max-width: 991px){
+    .types .row{
+      margin-top: 45vh;
+    }
+  }
   .personal_main{
     color: #fff;
   }
