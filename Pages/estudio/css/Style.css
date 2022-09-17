@@ -256,3 +256,13 @@
 footer span{
   color: var(--skin-color);
 }
+
+
+/* carrosel */
+.carrosel{
+  width: 70%;
+}
+.carousel-caption h5{
+  font-family: 'Bungee';
+  font-size: 30px;
+}
